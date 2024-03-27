@@ -1,0 +1,116 @@
+body {
+    background-color: #141415;
+        opacity: 1;
+        background: linear-gradient(135deg, #7f71b155 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #7f71b1 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #7f71b155 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #7f71b1 25%, #141415 25%) 0px 0/ 78px 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+.container{
+    height: 20vw;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5%;
+    gap:7rem;
+    background-color: bisque;
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+            linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+            linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+            radial-gradient(gray 2px, transparent 0);
+        background-size: 30px 30px, 30px 30px;
+    
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap:7rem;
+
+}
+
+.button1{
+     height: 5rem;
+    width: 7rem;
+    font-size: 3rem;
+    border: 5px black;
+    border-radius: 10%;
+    transition: all 0.5s ease;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson ;
+    
+
+}
+.button2 {
+    height: 5rem;
+    width: 7rem;
+    font-size: 3rem;
+    border: 5px black;
+    border-radius: 10%;
+    transition: all 1.5s ease;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  darkgreen;
+    
+}
+
+
+
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.button2:hover{
+    background-color: white;
+
+}
+
+.button1:hover {
+    background-color: white;
+
+}
+
+
+.reset{
+    border: solid 2px rgb(51, 84, 250);
+    border-radius: 20%;
+    transition: all 1.5s ease;
+}
+
+.reset:hover{
+    border: solid 2px rgb(178, 189, 243);
+}
+
+
+h2{
+    font-size: 100px;
+    color: aliceblue;
+    box-shadow: rgb(255, 255, 255) 0px 0px 8px;
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border: 5px solid;
+        border-color: rgb(255, 255, 255);
+    }
+}
